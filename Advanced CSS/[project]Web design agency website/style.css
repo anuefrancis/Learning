@@ -1,0 +1,77 @@
+.main{
+    /* display: inline-block; */
+    /* width: 40%;
+    margin: 20px; */
+    flex: 1;
+
+}
+span{
+    color: navy;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 50px 50px 0 50px;
+    display: flex;
+    flex-direction: column;
+    min-height: 95vh;
+}
+h1{
+    font-size: 5rem;
+}
+.logo{
+    height: 50px;
+    width: 100px;
+}
+.right{
+    float: right;
+    /* height: 100px;
+    width: 200px; */
+}
+.left{
+    float: left;
+    /* height: 100px;
+    width: 200px; */
+    /* display: inline-block; */
+}
+footer{
+    color: midnightblue;
+    text-align: right;
+}
+.title-image{
+    height: 200px;
+    float: left;
+    margin-right: 50px;
+}
+.card{
+    width: 45%;
+}
+@media (max-width: 680px) {
+    .logo{
+
+        /* background-color: lightsalmon;  */
+        width: 100px;
+        /* height: 100px; */
+    }
+    h1{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+    .card{
+        width: 100%;
+        display: block;
+        margin-bottom: 30px;
+        text-align: justify;
+    }
+    .card img{
+        margin-bottom: 10px;
+        width: 100%;
+        display: inline;
+        object-fit: cover;
+    }
+    .right, .left{
+        float: unset;
+    }
+    body{
+        display: block;
+    }
+}
